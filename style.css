@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body {
+    background: gray;
+} 
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+}
+.box {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,1), 0 32px 64px -48px rgba(0,0,0,5);
+}
+.form-box {
+    width: 500px;
+    margin: 0px 10px;
+}
+
+.form-box header {
+    font-size: 30px;
+    font-weight: 650;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 20px;
+}
+.form-box form .Submit {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    flex-direction: column;
+}
+.form-box form .input input {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+.btn {
+    height: 40px;
+    background: blue;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.link {
+    margin-bottom: 10px;
+}
+header {
+    text-align: center;
+}
+
+
+/******Home Page*********/
+
+.navi {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+}
+.right-links a{
+    padding: 0 10px;
+   
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 15px;
+}
+@media only screen and (max-width:840px) {
+.main-box .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top .box {
+    margin: 10px 30px;
+}
+    .bottom {
+        margin-top: 0;
+    }
+}
+
